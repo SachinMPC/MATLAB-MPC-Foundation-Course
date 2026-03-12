@@ -27,13 +27,13 @@ Reinforcement Learning Toolbox
 Simulink Onramp
 ## Course Objectives
 The overall objective of this course is to introduce design, analysis and implementation of multi-variable discrete time state feedback optimal controllers for managing transient behavior of a system. Learning objectives can be summarized as follows:
-### Model Development: 
+1. Model Development: 
 Develop computer control relevant linear dynamic models either from mechanistic dynamic models or from operating transient data
-### Controller Design: 
+2. Controller Design: 
 Design state estimators (model based estimators of unmeasured variables) and multivariable state feedback based controllers (Linear Quadratic Optimal Controller or LQOC) and Model Predictive Control or MPC) using the control relevant models
-### Stability Analysis: 
+3. Stability Analysis: 
 Analyse dynamic behavior of open loop system using controllability, observability and the controlled system using  Lyapunov’s first and second methods 
-### Performance Evaluation: 
+4. Performance Evaluation: 
 Simulate the closed loop System behavior together with the designed state estimators an multi-variable controllers and benchmark systems
 ## Learning Outcomes
 Students will be able to
@@ -47,49 +47,49 @@ Students will be able to
 This course is organized in 9 Modules.
 ## Module 1. Introduction to Model Predictive Control 
 This module provides and overview of the course and introduces the theme example used in the course: the Quadruple Tank System. 
-Lesson 1: Introduction to Advanced Control (Notes)
-Lesson 2: Dynamic Models and Quadruple Tank Process 
+1. Lesson 1: Introduction to Advanced Control
+2. Lesson 2: Dynamic Models and Quadruple Tank Process 
 ## Module 2: Fundamentals of Moving Horizon Control
 This module begins with nonlinear mechanistic model based optimal control formulation, and, using concepts of linearization and discretization, proceeds to introduce discrete linear model based feed-forward MPC formulations under the perfect model assumption and perfect state measurement 
-### Lesson 1:  Moving Horizon Optimal Control
-### Lesson 2: Local Linearization of a Nonlinear Dynamical Model
-### Lesson 3: Discretization of Linear Models
-### Lesson 4: Dynamic Simulation of Linearized Model
-### Lesson 5: Reformulation of MPC using Linear Model
+1. Lesson 1:  Moving Horizon Optimal Control
+2. Lesson 2: Local Linearization of a Nonlinear Dynamical Model
+3. Lesson 3: Discretization of Linear Models
+4. Lesson 4: Dynamic Simulation of Linearized Model
+5. Lesson 5: Reformulation of MPC using Linear Model
 ## Module 3: Quadratic Optimal Control and Stability Analysis
 This module introduces classical quadratic optimal control (LQOC) theory and connects it with MPC. The nominal stability analysis of unconstrained and constrained MPC is discussed in this module. 
-### Lesson 1: Linear Quadratic Optimal Controller: Formulation 
-### Lesson 2: Stability Analysis of Discrete Linear Systems
+1. Lesson 1: Linear Quadratic Optimal Controller: Formulation
+2. Lesson 2: Stability Analysis of Discrete Linear Systems
 ## Module 4: Output Feedback and Servo Control 
 This module presents different variants of MPC by relaxing the perfect model assumption. MPC variants that can deal with model-plant mismatch, setpoint (reference signal) tracking and output feedback are introduced using the concept of target setting. 
-### Lesson 1: From LQOC to Quasi-Infinite Horizon MPC
-### Lesson 2: MPC Target Tracking for Linear Process
-### Lesson 3: Reference Tracking and Disturbance Rejection using MPC: Quadruple Tank Case Study
-### Lesson 4: L4_Vanilla_MPC_Variants
-### Lesson 5: Summary of Vanilla Linear MPC
+1. Lesson 1: From LQOC to Quasi-Infinite Horizon MPC
+2. Lesson 2: MPC Target Tracking for Linear Process
+3. Lesson 3: Reference Tracking and Disturbance Rejection using MPC: Quadruple Tank Case Study
+4. Lesson 4: L4_Vanilla_MPC_Variants
+5. Lesson 5: Summary of Vanilla Linear MPC
 ## Module 5: State Estimator Design for MPC
 This module introduces basics of state estimation. This includes design of Luenberger observers using pole placement method and Kalman filtering that give optimal state estimates in the presence of stochastic disturbances and measurement noise. 
-### Lesson 1: Introduction to State Estimation
-### Lesson 2: Luenberger (Pole Placement) Observer Design
-### Lesson 3: Stochastic Disturbances and Kalman Filtering 
-### Lesson 4: Stationary Kalman Filter and Drifting Disturbance Estimation
+1. Lesson 1: Introduction to State Estimation
+2. Lesson 2: Luenberger (Pole Placement) Observer Design
+3. Lesson 3: Stochastic Disturbances and Kalman Filtering
+4. Lesson 4: Stationary Kalman Filter and Drifting Disturbance Estimation
 ## Module 6: MPC using State Estimators
 Implementation of LQOC and MPC using state estimators is introduced in this module. 
-### Lesson 1: State Feedback Control Using State Estimator 
-### Lesson 2: Offset-free State Space MPC using Innovation Bias Approach 
-### Lesson 3: Output Tracking MPC using Innovation Bias Approach
+1. Lesson 1: State Feedback Control Using State Estimator 
+2.  Lesson 2: Offset-free State Space MPC using Innovation Bias Approach 
+3. Lesson 3: Output Tracking MPC using Innovation Bias Approach
 ## Module 7: Identification of Black-box Models from Data 
 This module introduces fundamentals of grey-box and black-box model identification starting from experimental data obtained by perturbing the system under consideration. 
-### Lesson 1: Introduction to System Identification
-### Lesson 2: Output Error State Space Models
-### Lesson 3: Innovation Form of State Space Models
+1. Lesson 1: Introduction to System Identification
+2.Lesson 2: Output Error State Space Models
+3. Lesson 3: Innovation Form of State Space Models
 ## Module 8: MPC using Black-box Models
 In this module, we present the state feedback control using estimators that are based on models directly identified from experimental data. We norther demonstrate offset free MPC formulations using such models. 
-### Lesson 1: State Feedback Control Using State Estimator: Black Box Models
-### Lesson 2: Black-box Model based MPC using Innovation Bias Approach
+1. Lesson 1: State Feedback Control Using State Estimator: Black Box Models
+2. Lesson 2: Black-box Model based MPC using Innovation Bias Approach
 ## Module 9: Connections between MPC and Reinforcement Learning - A brief excursion
 This module introduces the fundamentals of Reinforcement Learning (RL) and the use of Bellman’s principle for solving RL-based optimization problems. It provides a comparative overview of Model Predictive Control (MPC) and RL approaches, followed by the implementation of an RL-based controller for the Q-Tank process. The module emphasizes both theoretical insights and practical performance evaluation of the RL controller.
-### Lesson 1: MPC and Reinforcement Learning (RL)
-### Lesson 2: Bellman's Principle and RL
-### Lesson 3: DDPG and Actor Critic Network
-### Lesson 4: RL: Q Tank Example
+1. Lesson 1: MPC and Reinforcement Learning (RL)
+2.Lesson 2: Bellman's Principle and RL
+3.Lesson 3: DDPG and Actor Critic Network
+4.Lesson 4: RL: Q Tank Example
