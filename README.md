@@ -25,13 +25,13 @@ Reinforcement Learning Toolbox
 # Suggested MATLAB/Simulink Background Courses for beginners 
  MATLAB Onramp
 Simulink Onramp
-Course Objectives
+# Course Objectives
           The overall objective of this course is to introduce design, analysis and implementation of multi-variable discrete time state feedback optimal controllers for managing transient behavior of a system. Learning objectives can be summarized as follows:
 Model Development: Develop computer control relevant linear dynamic models either from mechanistic dynamic models or from operating transient data
 Controller Design: Design state estimators (model based estimators of unmeasured variables) and multivariable state feedback based controllers (Linear Quadratic Optimal Controller or LQOC) and Model Predictive Control or MPC) using the control relevant models
 Stability Analysis: Analyse dynamic behavior of open loop system using controllability, observability and the controlled system using  Lyapunov’s first and second methods 
 Performance Evaluation: Simulate the closed loop System behavior together with the designed state estimators an multi-variable controllers and benchmark systems
-Learning Outcomes
+# Learning Outcomes
 Students will be able to
 Understand the different aspects of computer based control
 Understand fundamental concepts of state feedback control including MPC
@@ -39,7 +39,7 @@ Synthesize and implement MPC control strategies using mechanistic, gray-box and 
 Analyze advantages of MPC over traditional control methods
 Apply MPC techniques to solves various industrial and other real-world problems.
 
-Course Contents
+# Course Contents
 This course is organized in 9 Modules.
 Module 1. Introduction to Model Predictive Control 
 This module provides and overview of the course and introduces the theme example used in the course: the Quadruple Tank System. 
