@@ -8,7 +8,7 @@ This teaching package introduces the Model Predictive Control Curriculum using M
 # About the Course
 ## Who can take this course?
  This course is meant for graduate students in engineering and industrial practitioners of automation who intend to get exposure to advanced multi-variable control concepts. Senior undergraduate students can also take this course if they are interested in systems and control. It is assumed that the learner has studied the first undergraduate course in control systems taught in any engineering department. Background in linear algebra, linear ordinary differential equations, and, to some extent optimization will help in steering through the course. No specific background of any engineering discipline is assumed. 
-Course Application Areas
+## Course Application Areas
 Process Control (Chemical and Metallurgical Engineering), Robotics (Mechanical Engineering), Aeronautical Engineering, Systems and Control Engineering, Electrical Engineering
 ## Pre-requisite Knowledge
 Linear Algebra: Matrix algebra, positive definite and semi-definite matrices, eigenvalues, and eigen-vectors.
@@ -26,7 +26,7 @@ Reinforcement Learning Toolbox
  MATLAB Onramp
 Simulink Onramp
 ## Course Objectives
-          The overall objective of this course is to introduce design, analysis and implementation of multi-variable discrete time state feedback optimal controllers for managing transient behavior of a system. Learning objectives can be summarized as follows:
+The overall objective of this course is to introduce design, analysis and implementation of multi-variable discrete time state feedback optimal controllers for managing transient behavior of a system. Learning objectives can be summarized as follows:
 Model Development: Develop computer control relevant linear dynamic models either from mechanistic dynamic models or from operating transient data
 Controller Design: Design state estimators (model based estimators of unmeasured variables) and multivariable state feedback based controllers (Linear Quadratic Optimal Controller or LQOC) and Model Predictive Control or MPC) using the control relevant models
 Stability Analysis: Analyse dynamic behavior of open loop system using controllability, observability and the controlled system using  Lyapunov’s first and second methods 
