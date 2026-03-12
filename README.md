@@ -37,11 +37,11 @@ Analyse dynamic behavior of open loop system using controllability, observabilit
 Simulate the closed loop System behavior together with the designed state estimators an multi-variable controllers and benchmark systems
 ## Learning Outcomes
 Students will be able to
-Understand the different aspects of computer based control
-Understand fundamental concepts of state feedback control including MPC
-Synthesize and implement MPC control strategies using mechanistic, gray-box and black-box dynamic models and basis MATLAB toolboxes such as Control Systems, Statistics, Optimization and System Identification 
-Analyze advantages of MPC over traditional control methods
-Apply MPC techniques to solves various industrial and other real-world problems.
+1. Understand the different aspects of computer based control
+2. Understand fundamental concepts of state feedback control including MPC
+3. Synthesize and implement MPC control strategies using mechanistic, gray-box and black-box dynamic models and basis MATLAB toolboxes such as Control Systems, Statistics, Optimization and System Identification
+4. Analyze advantages of MPC over traditional control methods
+5. Apply MPC techniques to solves various industrial and other real-world problems.
 
 # Course Contents
 This course is organized in 9 Modules.
