@@ -27,10 +27,10 @@ Reinforcement Learning Toolbox
 Simulink Onramp
 ## Course Objectives
 The overall objective of this course is to introduce design, analysis and implementation of multi-variable discrete time state feedback optimal controllers for managing transient behavior of a system. Learning objectives can be summarized as follows:
-Model Development: Develop computer control relevant linear dynamic models either from mechanistic dynamic models or from operating transient data
-Controller Design: Design state estimators (model based estimators of unmeasured variables) and multivariable state feedback based controllers (Linear Quadratic Optimal Controller or LQOC) and Model Predictive Control or MPC) using the control relevant models
-Stability Analysis: Analyse dynamic behavior of open loop system using controllability, observability and the controlled system using  Lyapunov’s first and second methods 
-Performance Evaluation: Simulate the closed loop System behavior together with the designed state estimators an multi-variable controllers and benchmark systems
+### Model Development: Develop computer control relevant linear dynamic models either from mechanistic dynamic models or from operating transient data
+### Controller Design: Design state estimators (model based estimators of unmeasured variables) and multivariable state feedback based controllers (Linear Quadratic Optimal Controller or LQOC) and Model Predictive Control or MPC) using the control relevant models
+### Stability Analysis: Analyse dynamic behavior of open loop system using controllability, observability and the controlled system using  Lyapunov’s first and second methods 
+### Performance Evaluation: Simulate the closed loop System behavior together with the designed state estimators an multi-variable controllers and benchmark systems
 ## Learning Outcomes
 Students will be able to
 Understand the different aspects of computer based control
