@@ -90,6 +90,6 @@ In this module, we present the state feedback control using estimators that are 
 ## Module 9: Connections between MPC and Reinforcement Learning - A brief excursion
 This module introduces the fundamentals of Reinforcement Learning (RL) and the use of Bellman’s principle for solving RL-based optimization problems. It provides a comparative overview of Model Predictive Control (MPC) and RL approaches, followed by the implementation of an RL-based controller for the Q-Tank process. The module emphasizes both theoretical insights and practical performance evaluation of the RL controller.
 1. Lesson 1: MPC and Reinforcement Learning (RL)
-2.Lesson 2: Bellman's Principle and RL
-3.Lesson 3: DDPG and Actor Critic Network
-4.Lesson 4: RL: Q Tank Example
+2. Lesson 2: Bellman's Principle and RL
+3. Lesson 3: DDPG and Actor Critic Network
+4. Lesson 4: RL: Q Tank Example
