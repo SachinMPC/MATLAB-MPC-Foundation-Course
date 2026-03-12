@@ -1,6 +1,10 @@
 # MATLAB-MPC-Foundation-Course
-Foundation Course developed in MATLAB on Model Predictive Control.. 
-*Created with MATLAB R2024a. Compatible with MATLAB R2024a and later releases.*..
+Foundation Course developed in MATLAB on Model Predictive Control
+
+*Created with MATLAB R2024a. 
+
+Compatible with MATLAB R2024a and later releases.*
+
  © Prof. Sachin Patwardhan ([Indian Institute of Technology, Bombay, Faculty of Chemical Engineering](https://www.che.iitb.ac.in/old/faculty/sachin-c-patwardhan))
 # Introduction
 Engineered systems, such as process plants, refineries, power plants, aircraft or automotive vehicles, consist of numerous interconnected units forming complex networks.  From the viewpoint of control system design, a common feature of such systems is that they have multiple inputs that must be simultaneously manipulated to achieve desired output behavior, often while operating in uncertain environments, i.e. these are multiple-input, multiple-output (MIMO) systems.  This course focuses on design, analysis and implementation of a widely used multi-variable optimal control approach referred to as Model Predictive Control (MPC) for optimal operation of MIMO dynamic systems. MPC uses an internal dynamic model for on-line forecasting  over a moving time window (horizon) and optimizes the inputs to be applied to the plant, in order to achieve the desired outputs. Major strengths of MPC are abilities to handle multi-variable Interactions  and  operating constraints in a systematic manner. Moreover, it is possible to simultaneously guarantee nominal performance and nominal stability under the ideal conditions.  
@@ -14,29 +18,37 @@ This teaching package introduces the Model Predictive Control Curriculum using M
 ## Course Application Areas
 Process Control (Chemical and Metallurgical Engineering), Robotics (Mechanical Engineering), Aeronautical Engineering, Systems and Control Engineering, Electrical Engineering
 ## Pre-requisite Knowledge
-Linear Algebra: Matrix algebra, positive definite and semi-definite matrices, eigenvalues, and eigen-vectors.
-Optimization: Familiarity with basic concepts of optimization (necessary and sufficient conditions for unconstrained and constrained optimization), quadratic programming
-Fundamentals of Feedback Control Systems: Familiarity with classical control methods (transfer function representation of dynamic models, stability analysis of SISO systems, PID controller design) and the concept of feed-forward and feedback control, 
-Fundamentals of Digital Control: Sampling, quantization, Analog-to-Digital Converters (ADCs), Digital-to-Analog Converters (DACs)
+ **Linear Algebra:** Matrix algebra, positive definite and semi-definite matrices, eigenvalues, and eigen-vectors.
+ 
+ **Optimization:** Familiarity with basic concepts of optimization (necessary and sufficient conditions for unconstrained and constrained optimization), quadratic programming
+ 
+ **Fundamentals of Feedback Control Systems:** Familiarity with classical control methods (transfer function representation of dynamic models, stability analysis of SISO systems, PID controller design) and the concept of feed-forward and feedback control
+ 
+ **Fundamentals of Digital Control:** Sampling, quantization, Analog-to-Digital Converters (ADCs), Digital-to-Analog Converters (DACs)
 ## MATLAB and Simulink Toolboxes Required
 Control System Toolbox
+
 Simulink Control Design
+
 Optimization Toolbox
+
 Statistics Toolbox 
+
 System Identification Toolbox
+
 Reinforcement Learning Toolbox
 ## Suggested MATLAB/Simulink Background Courses for beginners 
 * [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted)
 * [Simulink Onramp](https://matlabacademy.mathworks.com/details/simulink-onramp/simulink)
 ## Course Objectives
 The overall objective of this course is to introduce design, analysis and implementation of multi-variable discrete time state feedback optimal controllers for managing transient behavior of a system. Learning objectives can be summarized as follows:
-1. Model Development: 
+1. **Model Development:** 
 Develop computer control relevant linear dynamic models either from mechanistic dynamic models or from operating transient data
-2. Controller Design: 
+2. **Controller Design:** 
 Design state estimators (model based estimators of unmeasured variables) and multivariable state feedback based controllers (Linear Quadratic Optimal Controller or LQOC) and Model Predictive Control or MPC) using the control relevant models
-3. Stability Analysis: 
+3. **Stability Analysis:** 
 Analyse dynamic behavior of open loop system using controllability, observability and the controlled system using  Lyapunov’s first and second methods 
-4. Performance Evaluation: 
+4. **Performance Evaluation:** 
 Simulate the closed loop System behavior together with the designed state estimators an multi-variable controllers and benchmark systems
 ## Learning Outcomes
 Students will be able to
