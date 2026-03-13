@@ -1,16 +1,19 @@
 # MATLAB-MPC-Foundation-Course
 Foundation Course developed in MATLAB on Model Predictive Control
 
-*Created with MATLAB R2024a. 
+*Created with MATLAB R2024a.* 
 
-Compatible with MATLAB R2024a and later releases.*
+*Compatible with MATLAB R2024a and later releases.*
 
  © Prof. Sachin Patwardhan ([Indian Institute of Technology, Bombay, Faculty of Chemical Engineering](https://www.che.iitb.ac.in/old/faculty/sachin-c-patwardhan))
 # Introduction
 This course focuses on design, analysis and implementation of a widely used multi-variable optimal control approach referred to as Model Predictive Control (MPC) for optimal operation of MIMO dynamic systems. MPC uses an internal dynamic model for on-line forecasting  over a moving time window (horizon) and optimizes the inputs to be applied to the plant, in order to achieve the desired outputs. Major strengths of MPC are abilities to handle multi-variable Interactions  and  operating constraints in a systematic manner. Moreover, it is possible to simultaneously guarantee nominal performance and nominal stability under the ideal conditions.  
-The course begins with the development of discrete time linear perturbation models for solving the classical optimal control problem in the real time using a moving time window framework. In the initial part of the course, control relevant local linear dynamic models are developed starting from nonlinear mechanistic dynamic models and are further used for the controller synthesis. Such mechanistic models, however, may not be available in many situations. Thus, development of MPC relevant linear state space model using system identification techniques and using operating perturbation data collected from the system is introduced in the later part of the course. 
+The course begins with the development of discrete time linear perturbation models for solving the classical optimal control problem in the real time using a moving time window framework. 
+
 The discrete linear model based MPC is re-formulated as a quadratic programming problem and shown to result in a state feedback controller formulation. The classical Linear Quadratic Optimal Control (LQOC) is developed using Bellman's dynamic programming and its connection with unconstrained finite horizon MPC and quasi-infinite horizon MPC are illustrated. The nominal stability of MPC is established using Lyapuov's second method. Time varying target following framework is introduced to achieve offset free control under model plant mismatch, sustained changes in unmeasured disturbances and setpoint changes. The time varying and stationary Kalman filters are introduced to deal with stochastic input disturbances and measurement noise systematically in the MPC framework. 
+
  The various elements of the course are designed to provide exposure to theoretical foundations of MPC along with practical implementation. Development of MPC relevant discrete dynamic model is viewed as an integral part of formulating an MPC scheme. Thus, adequate exposures are given to state estimation and system identification techniques and the relationship between these two complementary areas. The benchmark Quadruple Tank Process system is used as a theme simulation example to illustrate all the  concepts introduced in this course. An excursion to using reinforcement learning for control is also provided at the end of the course to connect MPC with learning methods thus highlighting connections between MPC and Reinforcement Learning, both being the powerful techniques for optimizing control systems. 
+ 
 This teaching package introduces the Model Predictive Control Curriculum using MATLAB Live Scripts, Simulink Models and PDFs, and self practice assignments. 
 # About the Course
 ## Who can take this course?
