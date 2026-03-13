@@ -82,7 +82,7 @@ This module presents different variants of MPC by relaxing the perfect model ass
 1. Lesson 1: From LQOC to Quasi-Infinite Horizon MPC
 2. Lesson 2: MPC Target Tracking for Linear Process
 3. Lesson 3: Reference Tracking and Disturbance Rejection using MPC: Quadruple Tank Case Study
-4. Lesson 4: L4_Vanilla_MPC_Variants
+4. Lesson 4: Vanilla_MPC_Variants
 5. Lesson 5: Summary of Vanilla Linear MPC
 ## Module 5: State Estimator Design for MPC
 This module introduces basics of state estimation. This includes design of Luenberger observers using pole placement method and Kalman filtering that give optimal state estimates in the presence of stochastic disturbances and measurement noise. 
