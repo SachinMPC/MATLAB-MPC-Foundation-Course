@@ -64,7 +64,7 @@ Students will be able to
 This course is organized in 9 Modules.
 ## Module 1. Introduction to Model Predictive Control 
 This module provides and overview of the course and introduces the theme example used in the course: the Quadruple Tank System. 
-1. Lesson 1: [Introduction to Advanced Control](1.Introduction_Model_Predictive_Control/L01_Introduction_to_Model_Predictive_Control.mlx)
+1. Lesson 1: [Introduction to Advanced Control]()
 2. Lesson 2: Dynamic Models and Quadruple Tank Process 
 ## Module 2: Fundamentals of Moving Horizon Control
 This module begins with nonlinear mechanistic model based optimal control formulation, and, using concepts of linearization and discretization, proceeds to introduce discrete linear model based feed-forward MPC formulations under the perfect model assumption and perfect state measurement 
