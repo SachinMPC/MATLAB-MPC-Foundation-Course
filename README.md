@@ -77,7 +77,7 @@ Students will be able to
 # Instructions
 The course content can be approached in one of two ways:
 
-1. Click on Open in MATLAB Online. This will allow you to access the content online in your web browser through MATLAB Online.
+1. Click on [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=SachinMPC/MATLAB-MPC-Foundation-Course). This will allow you to access the content online in your web browser through MATLAB Online.
 2. Download all files and access the content from the MATLAB desktop application.
 # Course Contents
 This course is organized in 9 Modules.
