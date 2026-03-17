@@ -74,7 +74,11 @@ Students will be able to
 3. Synthesize and implement MPC control strategies using mechanistic, gray-box and black-box dynamic models and basis MATLAB toolboxes such as Control Systems, Statistics, Optimization and System Identification
 4. Analyze advantages of MPC over traditional control methods
 5. Apply MPC techniques to solves various industrial and other real-world problems.
+# Instructions
+The course content can be approached in one of two ways:
 
+1. Click on Open in MATLAB Online. This will allow you to access the content online in your web browser through MATLAB Online.
+2. Download all files and access the content from the MATLAB desktop application.
 # Course Contents
 This course is organized in 9 Modules.
 ## Module 1. Introduction to Model Predictive Control 
