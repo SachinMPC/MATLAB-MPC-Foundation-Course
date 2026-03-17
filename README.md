@@ -7,29 +7,15 @@ Foundation Course developed in MATLAB on Model Predictive Control
 
  © Prof. Sachin Patwardhan ([Indian Institute of Technology, Bombay, Faculty of Chemical Engineering](https://www.che.iitb.ac.in/old/faculty/sachin-c-patwardhan))
 # Introduction
-This course focuses on design, analysis and implementation of a widely used multi-variable optimal control approach referred to as Model Predictive Control (MPC) for optimal operation of MIMO dynamic systems. MPC uses an internal dynamic model for on-line forecasting  over a moving time window (horizon) and optimizes the inputs to be applied to the plant, in order to achieve the desired outputs. 
+This course covers the design, analysis, and implementation of Model Predictive Control (MPC) for MIMO dynamic systems. Starting from discrete-time linear perturbation models, it develops the theoretical foundations of MPC — including its reformulation as a quadratic programming problem, connections to Linear Quadratic Optimal Control, and nominal stability via Lyapunov's method. 
 <p align="center">
   <img src="Images/MPC_Schematic.png" width="500"/>
 </p>
 <p align="center">
   <em>MPC Schematic</em>
 </p>
+Topics include linearization of nonlinear mechanistic models, system identification, state estimation via Kalman filtering, and offset-free control under model-plant mismatch. A concluding excursion connects MPC with Reinforcement Learning. The Quadruple Tank Process serves as a unifying simulation example throughout, with course materials delivered via MATLAB Live Scripts and Simulink.
 
-
-Major strengths of MPC are abilities to handle multi-variable Interactions  and  operating constraints in a systematic manner. Moreover, it is possible to simultaneously guarantee nominal performance and nominal stability under the ideal conditions. 
-
-The course begins with the development of discrete time linear perturbation models for solving the classical optimal control problem in the real time using a moving time window framework. The discrete linear model based MPC is re-formulated as a quadratic programming problem and shown to result in a state feedback controller formulation. The classical Linear Quadratic Optimal Control (LQOC) is developed using Bellman's dynamic programming and its connection with unconstrained finite horizon MPC and quasi-infinite horizon MPC are illustrated. The nominal stability of MPC is established using Lyapuov's second method. Time varying target following framework is introduced to achieve offset free control under model plant mismatch, sustained changes in unmeasured disturbances and setpoint changes. The time varying and stationary Kalman filters are introduced to deal with stochastic input disturbances and measurement noise systematically in the MPC framework. 
-
- The various elements of the course are designed to provide exposure to theoretical foundations of MPC along with practical implementation. The benchmark Quadruple Tank Process system is used as a theme simulation example to illustrate all the  concepts introduced in this course. 
- <p align="center">
-  <img src="Images/QTank_IITBombay.PNG" width="500"/>
-</p>
-<p align="center">
-  <em>Quadruple Tank Process</em>
-</p>
- An excursion to using reinforcement learning for control is also provided at the end of the course to connect MPC with learning methods thus highlighting connections between MPC and Reinforcement Learning, both being the powerful techniques for optimizing control systems. 
- 
-This teaching package introduces the Model Predictive Control Curriculum using MATLAB Live Scripts, Simulink Models and PDFs, and self practice assignments. 
 # About the Course
 ## Who can take this course?
  This course is meant for graduate students in engineering and industrial practitioners of automation who intend to get exposure to advanced multi-variable control concepts. Senior undergraduate students can also take this course if they are interested in systems and control. It is assumed that the learner has studied the first undergraduate course in control systems taught in any engineering department. Background in linear algebra, linear ordinary differential equations, and, to some extent optimization will help in steering through the course. No specific background of any engineering discipline is assumed. 
