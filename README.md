@@ -59,6 +59,7 @@ Reinforcement Learning Toolbox
 * [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted)
   -Learn the essentials of MATLAB through this free, two-hour introductory tutorial on commonly used features and workflows.
 * [Simulink Onramp](https://matlabacademy.mathworks.com/details/simulink-onramp/simulink)
+  -Learn the basics of how to create, edit, and simulate models in Simulink®. Use block diagrams to represent real-world systems and simulate components and algorithms.
 ## Course Objectives
 The overall objective of this course is to introduce design, analysis and implementation of multi-variable discrete time state feedback optimal controllers for managing transient behavior of a system. Learning objectives can be summarized as follows:
 1. **Model Development:** 
