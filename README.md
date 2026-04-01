@@ -100,9 +100,10 @@ This module introduces basics of state estimation. This includes design of Luenb
 4. Lesson 4: Stationary Kalman Filter and Drifting Disturbance Estimation
 ## Module 6: MPC using State Estimators
 Implementation of LQOC and MPC using state estimators is introduced in this module. 
-1. Lesson 1: State Feedback Control Using State Estimator 
-2.  Lesson 2: Offset-free State Space MPC using Innovation Bias Approach 
-3. Lesson 3: Output Tracking MPC using Innovation Bias Approach
+1. Lesson 1: LQR Using State Estimator 
+2. Lesson 2: Offset Free LQOC Using State Estimator
+3. Lesson 3: Offset-free State Space MPC using Innovation Bias Approach 
+4. Lesson 4: Output Tracking MPC using Innovation Bias Approach
 ## Module 7: Identification of Black-box Models from Data 
 This module introduces fundamentals of grey-box and black-box model identification starting from experimental data obtained by perturbing the system under consideration. 
 1. Lesson 1: Introduction to System Identification
