@@ -1,5 +1,5 @@
 # Foundations of Linear Model Predictive Control
-Foundation Course developed in MATLAB on Model Predictive Control
+A Foundation Course on Model Predictive Control (MPC) developed using basic toolboxes in MATLAB
 
 *Created with MATLAB R2024a.* 
 
